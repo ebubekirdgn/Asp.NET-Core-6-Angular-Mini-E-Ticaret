@@ -1,5 +1,5 @@
 ﻿using ETicaretAPI.Application.Abstractions;
-using ETicaretAPI.Domain.Entity;
+using ETicaretAPI.Domain.Entities;
 
 namespace ETicaretAPI.Persistence.Concrete
 {

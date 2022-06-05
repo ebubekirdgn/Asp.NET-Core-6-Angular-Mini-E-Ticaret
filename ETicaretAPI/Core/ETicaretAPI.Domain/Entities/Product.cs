@@ -1,6 +1,5 @@
-﻿using ETicaretAPI.Domain.Entity.Common;
-
-namespace ETicaretAPI.Domain.Entity
+﻿
+namespace ETicaretAPI.Domain.Entities
 {
     public class Product : BaseEntity
     {
