@@ -1,11 +1,47 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ETicaretAPI.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ETicaretAPI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ETicaretAPI.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ETicaretAPI.Application.dll": {}
+        }
+      },
+      "ETicaretAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ETicaretAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ETicaretAPI.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ETicaretAPI.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj",
+      "msbuildProject": "../../Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj"
+    },
+    "ETicaretAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/ETicaretAPI.Domain/ETicaretAPI.Domain.csproj",
+      "msbuildProject": "../../Core/ETicaretAPI.Domain/ETicaretAPI.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ETicaretAPI.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -16,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dogan\\source\\repos\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+      "projectUniqueName": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
       "projectName": "ETicaretAPI.API",
-      "projectPath": "C:\\Users\\Dogan\\source\\repos\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+      "projectPath": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
       "packagesPath": "C:\\Users\\Dogan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dogan\\source\\repos\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\obj\\",
+      "outputPath": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,7 +75,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y99MTQQdYug6amn/BDjN34TIkdZRf97V6nQcc5t4IKQKPYLEiqeu7lnuNntwwnaMjIGBKrJ1X4onvTZnHjDnfA==",
+  "dgSpecHash": "U4MWfuzLhIpmmEaV7xJohqGGn+oNxIt3/9FaERA7QmfeN7WVV0DN8mcRJcr53BHznm9KSoxK4HPBs+29b0vyrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dogan\\source\\repos\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

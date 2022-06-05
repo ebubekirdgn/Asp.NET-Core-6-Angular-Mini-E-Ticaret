@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ySOdw8+9O0P2IOzl39a1PycnFTSq7ZnWYYrGOv7ENyH8X5YvrlVXTTEebPjVZOqwuhWGlen6NZwWPTiPvTPL4A==",
+  "dgSpecHash": "AaUVZs9YLSyaYrDfnqd48h67PHNRU6BjHRmCjxaRpYYgg4PlgydOzX1QsyIM9y1BP4Xov9ziCMo2x0t6WejrkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dogan\\source\\repos\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
+  "projectFilePath": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
