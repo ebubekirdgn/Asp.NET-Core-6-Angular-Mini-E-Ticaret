@@ -9,6 +9,6 @@ namespace ETicaretAPI.Application.Abstractions
 {
     public interface IProductService
     {
-        List<Product> GetAllProducts();
+        List<Product> GetProducts();
     }
 }
