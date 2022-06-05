@@ -1,18 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZN8eqsrnkV1HFJchnh+pqOkUKVEClh9jcR2UuZbrky4hOSEfiPQVmMNqWPLRFzOmZazOPxa4J0JptQRiA6FB9Q==",
-  "success": false,
+  "dgSpecHash": "YWqV/wt2Wm5RP2DqlTFDh4+GDqodaXUNzuZypiI8vZZDynS3NaD2HQgYkhjF/fUzWnT7IReKCnRXVWGLvgM/9w==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
-      "libraryId": "Swashbuckle.AspNetCore",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\Dogan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
 }

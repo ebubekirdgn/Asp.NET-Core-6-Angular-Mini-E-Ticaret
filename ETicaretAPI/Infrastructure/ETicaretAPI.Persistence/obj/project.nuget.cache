@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U4MWfuzLhIpmmEaV7xJohqGGn+oNxIt3/9FaERA7QmfeN7WVV0DN8mcRJcr53BHznm9KSoxK4HPBs+29b0vyrw==",
+  "dgSpecHash": "3KcmDltZkYNC1CnrmrCppI7fPVg0fEfW80kgvtydEhdXved8B349iLEfitVkiaAavY5QY0shXqFGJ5Gx+kT1Bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Dogan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

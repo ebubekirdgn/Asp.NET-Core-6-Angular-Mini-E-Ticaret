@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Core\ETicaretAPI.Application\ETicaretAPI.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ETicaretAPI.Persistence\ETicaretAPI.Persistence.csproj" />
   </ItemGroup>
 
 </Project>
