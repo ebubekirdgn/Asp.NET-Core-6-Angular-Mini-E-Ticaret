@@ -56,14 +56,6 @@ namespace ETicaretAPI.Persistence.Repository
         public async Task<int> SaveAsync()
             => await _context.SaveChangesAsync();
 
-        public Task<bool> Remove(string id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<bool> UpdateAsync(T model)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
