@@ -1,37 +1,30 @@
 ﻿using ETicaretAPI.Application.Repositories;
 using ETicaretAPI.Domain.Entities.Common;
+using ETicaretAPI.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ETicaretAPI.Persistence.Repository
 {
     public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity
     {
-        public DbSet<T> Table => throw new NotImplementedException();
+        private readonly ETicaretAPIDbContext _context;
 
-        public IQueryable<T> GetAll()
+        public ReadRepository(ETicaretAPIDbContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
         }
 
-        public Task<T> GetByIdAsync(string id)
-        {
-            throw new NotImplementedException();
-        }
+        public DbSet<T> Table => _context.Set<T>();
 
-        public Task<T> GetSingleAsync(Expression<Func<T, bool>> method)
-        {
-            throw new NotImplementedException();
-        }
+        public IQueryable<T> GetAll() => Table;
 
-        public IQueryable<T> GetWhere(Expression<Func<T, bool>> method)
-        {
-            throw new NotImplementedException();
-        }
+        public IQueryable<T> GetWhere(Expression<Func<T, bool>> method) => Table.Where(method);
+
+        public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method)
+            => await Table.FirstOrDefaultAsync(method);
+
+        public async Task<T> GetByIdAsync(string id)
+            => await Table.FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
     }
 }
