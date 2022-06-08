@@ -1,5 +1,5 @@
-﻿using ETicaretAPI.Application.Abstractions;
-using ETicaretAPI.Persistence.Concrete;
+﻿using ETicaretAPI.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ETicaretAPI.Persistence
@@ -8,7 +8,11 @@ namespace ETicaretAPI.Persistence
     {
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddSingleton<IProductService, ProductService>();
+            services.AddDbContext<ETicaretAPIDbContext>(options =>
+            {
+                options.UseNpgsql("User ID=postgres;Password=12345;Host=localhost;Port=5432;Database=ETicaretAPIDb;");
+            });
+
         }
     }
 }
