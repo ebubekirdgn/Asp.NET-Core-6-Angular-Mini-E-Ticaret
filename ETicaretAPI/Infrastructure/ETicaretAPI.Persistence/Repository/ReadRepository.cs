@@ -1,10 +1,4 @@
-﻿using ETicaretAPI.Application.Repositories;
-using ETicaretAPI.Domain.Entities.Common;
-using ETicaretAPI.Persistence.Context;
-using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
-
-namespace ETicaretAPI.Persistence.Repository
+﻿namespace ETicaretAPI.Persistence.Repository
 {
     public class ReadRepository<T> : IReadRepository<T> where T : BaseEntity
     {

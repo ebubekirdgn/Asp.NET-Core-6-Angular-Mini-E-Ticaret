@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-
-namespace ETicaretAPI.Persistence
+﻿namespace ETicaretAPI.Persistence
 {
     internal static class Configuration
     {

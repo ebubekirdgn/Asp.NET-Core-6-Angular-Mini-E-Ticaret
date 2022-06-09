@@ -1,5 +1,4 @@
-﻿using ETicaretAPI.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿
 
 namespace ETicaretAPI.Persistence.Context
 {

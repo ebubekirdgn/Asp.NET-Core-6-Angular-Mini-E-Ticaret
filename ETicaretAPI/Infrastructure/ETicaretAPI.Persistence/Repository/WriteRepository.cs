@@ -1,10 +1,4 @@
-﻿using ETicaretAPI.Application.Repositories;
-using ETicaretAPI.Domain.Entities.Common;
-using ETicaretAPI.Persistence.Context;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-
-namespace ETicaretAPI.Persistence.Repository
+﻿namespace ETicaretAPI.Persistence.Repository
 {
     public class WriteRepository<T> : IWriteRepository<T> where T : BaseEntity
     {
