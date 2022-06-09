@@ -1,6 +1,4 @@
-﻿
-
-namespace ETicaretAPI.Persistence.Context
+﻿namespace ETicaretAPI.Persistence.Context
 {
     public class ETicaretAPIDbContext : DbContext
     {
