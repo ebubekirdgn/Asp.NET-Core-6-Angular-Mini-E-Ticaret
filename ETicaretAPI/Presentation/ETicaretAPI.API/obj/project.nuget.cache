@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6TkVEa0ZWryDOjERlTUZro1tufxaPNoAm3VF0KSyYkPPj04NoE17kZG6EslRsJmI/FCfKw3Hy36GSr44OyBU6A==",
+  "dgSpecHash": "5H9p2Ebh3ugrovKGkmLjaM1EyBcKm5JmDdUJ/dqoHsJxubmxY1I7V08cjrgSk2/ZxRYHhepsiJkiZTTshEQOkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
+  "projectFilePath": "C:\\Users\\Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dogan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dogan\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",

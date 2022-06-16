@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W0IDH7PGLoAuyIOHH8NtX1J8/HFzxnUrYTwwfUwSO+Ol81dQGOiDc7TxuPhc5lLaKrItYdiKb9IRGTfukDbnWQ==",
+  "dgSpecHash": "JGnE37hx7YayqeJMJxsXlLoB0d63SuFtjLonWiP+8+NQRHmZBaO86fEV7gMDyDacOmyIznL3CR7sLq6juHA8wA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dogan\\Documents\\GitHub\\Asp.NET-Core-6-Angular-Mini-E-Ticaret\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
+  "projectFilePath": "C:\\Users\\Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Application\\ETicaretAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dogan\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "C:\\Users\\Dogan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.5\\microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
