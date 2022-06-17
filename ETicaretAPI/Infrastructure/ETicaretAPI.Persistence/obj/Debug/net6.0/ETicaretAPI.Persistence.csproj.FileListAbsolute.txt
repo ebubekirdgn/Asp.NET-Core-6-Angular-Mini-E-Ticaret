@@ -17,3 +17,22 @@ C:\Users\Dogan\Documents\GitHub\Asp.NET-Core-6-Angular-Mini-E-Ticaret\ETicaretAP
 C:\Users\Dogan\Documents\GitHub\Asp.NET-Core-6-Angular-Mini-E-Ticaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.pdb
 C:\Users\Dogan\Documents\GitHub\Asp.NET-Core-6-Angular-Mini-E-Ticaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.genruntimeconfig.cache
 C:\Users\Dogan\Documents\GitHub\Asp.NET-Core-6-Angular-Mini-E-Ticaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ref\ETicaretAPI.Persistence.dll
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.deps.json
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.runtimeconfig.json
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.dll
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ref\ETicaretAPI.Persistence.dll
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.pdb
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Application.dll
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Domain.dll
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Application.pdb
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Domain.pdb
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.csproj.AssemblyReference.cache
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.AssemblyInfo.cs
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.csproj.CopyComplete
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.dll
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ref\ETicaretAPI.Persistence.dll
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.pdb
+C:\Users\Ebubekir Dogan\Documents\GitHub\Mini-E-Ticaret-Backend\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.genruntimeconfig.cache

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {}
+    "C:\\Users\\Ebubekir Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
+    "C:\\Users\\Ebubekir Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Ebubekir Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
         "projectName": "ETicaretAPI.Domain",
-        "projectPath": "C:\\Users\\Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
-        "packagesPath": "C:\\Users\\Dogan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Ebubekir Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\ETicaretAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\Ebubekir Dogan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ebubekir Dogan\\Documents\\GitHub\\Mini-E-Ticaret-Backend\\ETicaretAPI\\Core\\ETicaretAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ebubekir Dogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
