@@ -1,6 +1,4 @@
-﻿using ETicaretAPI.Persistence.Repositories;
-
-namespace ETicaretAPI.Persistence
+﻿namespace ETicaretAPI.Persistence
 {
     public static class ServiceRegistration
     {

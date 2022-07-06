@@ -1,7 +1,4 @@
-﻿using ETicaretAPI.Application.Repositories;
-using Microsoft.AspNetCore.Mvc;
-
-namespace ETicaretAPI.API.Controllers
+﻿namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

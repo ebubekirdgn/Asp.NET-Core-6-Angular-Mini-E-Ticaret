@@ -1,5 +1,4 @@
-﻿using ETicaretAPI.Domain.Entities.Common;
-using System.Linq.Expressions;
+﻿
 
 namespace ETicaretAPI.Application.Repositories
 {

@@ -9,3 +9,5 @@ global using Microsoft.EntityFrameworkCore.Design;
 global using Microsoft.Extensions.Configuration;
 global using Microsoft.Extensions.DependencyInjection;
 global using System.Linq.Expressions;
+global using ETicaretAPI.Persistence.Repositories;
+
