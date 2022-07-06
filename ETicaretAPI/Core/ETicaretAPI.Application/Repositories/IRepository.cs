@@ -1,5 +1,4 @@
-﻿
-namespace ETicaretAPI.Application.Repositories
+﻿namespace ETicaretAPI.Application.Repositories
 {
     public interface IRepository<T> where T : BaseEntity
     {
