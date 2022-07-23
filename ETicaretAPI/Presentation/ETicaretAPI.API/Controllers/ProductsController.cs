@@ -1,4 +1,5 @@
-﻿
+﻿using ETicaretAPI.Domain.Entities;
+
 namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
@@ -20,10 +21,16 @@ namespace ETicaretAPI.API.Controllers
             return Ok(_productReadRepository.GetAll());
         }
 
+        [HttpGet("id")]
+        public async Task<IActionResult> Get(string id)
+        {
+            return Ok(await _productReadRepository.GetByIdAsync(id));
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post(VM_Create_Product model)
         {
-           await _productWriteRepository.AddAsync(new()
+            await _productWriteRepository.AddAsync(new()
             {
                 Name = model.Name,
                 Price = model.Price,
@@ -34,9 +41,22 @@ namespace ETicaretAPI.API.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Put()
+        public async Task<IActionResult> Put(VM_Update_Product model)
         {
-            return Ok(_productReadRepository.GetAll());
+            Product product = await _productReadRepository.GetByIdAsync(model.Id);
+            product.Name = model.Name;
+            product.Price = model.Price;
+            product.Stock = model.Stock;
+            await _productWriteRepository.SaveAsync();
+            return Ok();
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete(string id)
+        {
+            await _productReadRepository.GetByIdAsync(id);
+            await _productWriteRepository.SaveAsync();
+            return Ok();
         }
     }
 }
