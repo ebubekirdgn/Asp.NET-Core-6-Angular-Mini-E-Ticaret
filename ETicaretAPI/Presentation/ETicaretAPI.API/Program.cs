@@ -12,6 +12,11 @@ builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>
                 .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>())
                 .ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true);
 
+/*
+ * Asp.net core da hazýr gelen filterla deðilde benim yazdýðýmla kontrol et demek.
+ ConfigureApiBehaviorOptions(options => options.SuppressModelStateInvalidFilter = true
+ */
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
