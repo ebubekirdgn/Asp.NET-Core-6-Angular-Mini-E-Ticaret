@@ -5,4 +5,4 @@ global using Microsoft.AspNetCore.Mvc;
 global using System.Net;
 global using ETicaretAPI.Application.Validators.Products;
 global using ETicaretAPI.Infrastructure.Filters;
-global using Microsoft.Extensions.DependencyInjection;
+global using FluentValidation.AspNetCore;
