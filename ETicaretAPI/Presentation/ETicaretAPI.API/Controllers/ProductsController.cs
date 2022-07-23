@@ -21,7 +21,7 @@ namespace ETicaretAPI.API.Controllers
             return Ok(_productReadRepository.GetAll());
         }
 
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> Get(string id)
         {
             return Ok(await _productReadRepository.GetByIdAsync(id));
@@ -51,10 +51,10 @@ namespace ETicaretAPI.API.Controllers
             return Ok();
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(string id)
         {
-            await _productReadRepository.GetByIdAsync(id);
+            await _productWriteRepository.RemoveAsync(id);
             await _productWriteRepository.SaveAsync();
             return Ok();
         }
