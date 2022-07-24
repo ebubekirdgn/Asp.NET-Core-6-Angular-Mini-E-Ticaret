@@ -6,3 +6,5 @@ global using System.Net;
 global using ETicaretAPI.Application.Validators.Products;
 global using ETicaretAPI.Infrastructure.Filters;
 global using FluentValidation.AspNetCore;
+global using ETicaretAPI.Application.RequestParameters;
+global using ETicaretAPI.Domain.Entities;

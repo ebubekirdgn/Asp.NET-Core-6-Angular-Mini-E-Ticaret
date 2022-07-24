@@ -1,6 +1,4 @@
-﻿using ETicaretAPI.Domain.Entities;
-
-namespace ETicaretAPI.API.Controllers
+﻿namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -16,18 +14,18 @@ namespace ETicaretAPI.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery] Pagination pagination)
         {
-            return Ok(_productReadRepository.GetAll().Select(p=> new
+            var products = _productReadRepository.GetAll(false).Select(p => new
             {
                 p.Id,
                 p.Name,
                 p.Price,
-                p.Stock
+                p.Stock,
                 p.CreatedDate,
                 p.UpdatedDate
-
-            }));
+            }).Take(pagination.Page * pagination.Size).Skip(pagination.Size);
+            return Ok(products);
         }
 
         [HttpGet("{id}")]
