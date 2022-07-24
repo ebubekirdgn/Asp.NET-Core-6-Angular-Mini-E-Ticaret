@@ -16,7 +16,9 @@
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] Pagination pagination)
         {
-            var products = _productReadRepository.GetAll(false).Select(p => new
+            Thread.Sleep(1500);
+            var totalCount = _productReadRepository.GetAll(false).Count();
+            var products = _productReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size).Select(p => new
             {
                 p.Id,
                 p.Name,
@@ -24,8 +26,12 @@
                 p.Stock,
                 p.CreatedDate,
                 p.UpdatedDate
-            }).Take(pagination.Page * pagination.Size).Skip(pagination.Size);
-            return Ok(products);
+            }).ToList();
+            return Ok(new
+            {
+                totalCount,
+                products
+            });
         }
 
         [HttpGet("{id}")]
