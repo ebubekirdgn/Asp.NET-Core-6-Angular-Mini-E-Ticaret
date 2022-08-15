@@ -16,7 +16,7 @@
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] Pagination pagination)
         {
-            Thread.Sleep(1500);
+            Task.Delay(1500);
             var totalCount = _productReadRepository.GetAll(false).Count();
             var products = _productReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size).Select(p => new
             {
