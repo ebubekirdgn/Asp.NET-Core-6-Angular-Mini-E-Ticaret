@@ -1,4 +1,12 @@
-﻿namespace ETicaretAPI.Infrastructure.Filters
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ETicaretAPI.Infrastructure.Filters
 {
     public class ValidationFilter : IAsyncActionFilter
     {
@@ -14,6 +22,7 @@
                 context.Result = new BadRequestObjectResult(errors);
                 return;
             }
+
             await next();
         }
     }
