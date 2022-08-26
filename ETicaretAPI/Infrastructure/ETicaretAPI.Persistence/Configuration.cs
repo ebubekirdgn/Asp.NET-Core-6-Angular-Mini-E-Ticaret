@@ -1,8 +1,8 @@
 ﻿namespace ETicaretAPI.Persistence
 {
-    internal static class Configuration
+    static class Configuration
     {
-        public static string ConnectionString
+        static public string ConnectionString
         {
             get
             {

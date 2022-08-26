@@ -1,5 +1,4 @@
-﻿using ETicaretAPI.Application.ViewModels.Products;
-using FluentValidation;
+﻿using VM_Create_Product = ETicaretAPI.Application.ViewModel.Products.VM_Create_Product;
 
 namespace ETicaretAPI.Application.Validators.Products
 {
