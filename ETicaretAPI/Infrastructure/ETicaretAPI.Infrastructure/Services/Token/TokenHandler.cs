@@ -2,20 +2,16 @@
 using ETicaretAPI.Domain.Entities.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ETicaretAPI.Infrastructure.Services.Token
 {
     public class TokenHandler : ITokenHandler
     {
-        readonly IConfiguration _configuration;
+        private readonly IConfiguration _configuration;
 
         public TokenHandler(IConfiguration configuration)
         {

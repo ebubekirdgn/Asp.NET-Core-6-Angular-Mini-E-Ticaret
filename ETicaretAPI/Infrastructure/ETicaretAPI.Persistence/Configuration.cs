@@ -1,15 +1,8 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ETicaretAPI.Persistence
+﻿namespace ETicaretAPI.Persistence
 {
-    static class Configuration
+    internal static class Configuration
     {
-        static public string ConnectionString
+        public static string ConnectionString
         {
             get
             {

@@ -1,13 +1,4 @@
-﻿using ETicaretAPI.Domain.Entities;
-using ETicaretAPI.Domain.Entities.Common;
-using ETicaretAPI.Domain.Entities.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace ETicaretAPI.Persistence.Contexts
 {
@@ -37,6 +28,7 @@ namespace ETicaretAPI.Persistence.Contexts
 
             base.OnModelCreating(builder);
         }
+
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             //ChangeTracker : Entityler üzerinden yapılan değişiklerin ya da yeni eklenen verinin yakalanmasını sağlayan propertydir. Update operasyonlarında Track edilen verileri yakalayıp elde etmemizi sağlar.

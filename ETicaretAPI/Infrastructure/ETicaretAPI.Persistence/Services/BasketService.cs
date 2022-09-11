@@ -1,28 +1,19 @@
-﻿using ETicaretAPI.Application.Abstractions.Services;
-using ETicaretAPI.Application.Repositories;
-using ETicaretAPI.Application.ViewModels.Baskets;
-using ETicaretAPI.Domain.Entities;
-using ETicaretAPI.Domain.Entities.Identity;
+﻿using ETicaretAPI.Application.ViewModels.Baskets;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ETicaretAPI.Persistence.Services
 {
     public class BasketService : IBasketService
     {
-        readonly IHttpContextAccessor _httpContextAccessor;
-        readonly UserManager<AppUser> _userManager;
-        readonly IOrderReadRepository _orderReadRepository;
-        readonly IBasketWriteRepository _basketWriteRepository;
-        readonly IBasketReadRepository _basketReadRepository;
-        readonly IBasketItemWriteRepository _basketItemWriteRepository;
-        readonly IBasketItemReadRepository _basketItemReadRepository;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly UserManager<AppUser> _userManager;
+        private readonly IOrderReadRepository _orderReadRepository;
+        private readonly IBasketWriteRepository _basketWriteRepository;
+        private readonly IBasketReadRepository _basketReadRepository;
+        private readonly IBasketItemWriteRepository _basketItemWriteRepository;
+        private readonly IBasketItemReadRepository _basketItemReadRepository;
+
         public BasketService(IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager, IOrderReadRepository orderReadRepository, IBasketWriteRepository basketWriteRepository, IBasketItemWriteRepository basketItemWriteRepository, IBasketItemReadRepository basketItemReadRepository, IBasketReadRepository basketReadRepository)
         {
             _httpContextAccessor = httpContextAccessor;
