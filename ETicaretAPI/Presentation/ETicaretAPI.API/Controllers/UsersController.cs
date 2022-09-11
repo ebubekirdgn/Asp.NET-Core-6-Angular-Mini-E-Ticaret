@@ -1,10 +1,5 @@
 ﻿using ETicaretAPI.Application.Features.Commands.AppUser.CreateUser;
-using ETicaretAPI.Application.Features.Commands.AppUser.FacebookLogin;
-using ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin;
-using ETicaretAPI.Application.Features.Commands.AppUser.LoginUser;
 using MediatR;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 
 namespace ETicaretAPI.API.Controllers
 {
@@ -12,11 +7,13 @@ namespace ETicaretAPI.API.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        readonly IMediator _mediator;
+        private readonly IMediator _mediator;
+
         public UsersController(IMediator mediator)
         {
             _mediator = mediator;
         }
+
         [HttpPost]
         public async Task<IActionResult> CreateUser(CreateUserCommandRequest createUserCommandRequest)
         {
