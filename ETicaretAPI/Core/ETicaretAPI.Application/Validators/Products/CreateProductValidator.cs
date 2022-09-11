@@ -1,6 +1,4 @@
-﻿using VM_Create_Product = ETicaretAPI.Application.ViewModel.Products.VM_Create_Product;
-
-namespace ETicaretAPI.Application.Validators.Products
+﻿namespace ETicaretAPI.Application.Validators.Products
 {
     public class CreateProductValidator : AbstractValidator<VM_Create_Product>
     {
