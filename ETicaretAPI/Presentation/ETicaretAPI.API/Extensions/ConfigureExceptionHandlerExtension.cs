@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
+using System.Net;
 using System.Net.Mime;
 using System.Text.Json;
 
 namespace ETicaretAPI.API.Extensions
 {
-    public static class ConfigureExceptionHandlerExtension
+    static public class ConfigureExceptionHandlerExtension
     {
         public static void ConfigureExceptionHandler<T>(this WebApplication application, ILogger<T> logger)
         {

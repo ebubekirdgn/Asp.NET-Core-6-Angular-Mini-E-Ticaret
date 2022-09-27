@@ -1,13 +1,19 @@
 ﻿using ETicaretAPI.Application.Repositories;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ETicaretAPI.Application.Features.Queries.ProductImageFile.GetProductImages
 {
     public class GetProductImagesQueryHandler : IRequestHandler<GetProductImagesQueryRequest, List<GetProductImagesQueryResponse>>
     {
-        private readonly IProductReadRepository _productReadRepository;
-        private readonly IConfiguration configuration;
+        readonly IProductReadRepository _productReadRepository;
+        readonly IConfiguration configuration;
 
         public GetProductImagesQueryHandler(IProductReadRepository productReadRepository, IConfiguration configuration)
         {

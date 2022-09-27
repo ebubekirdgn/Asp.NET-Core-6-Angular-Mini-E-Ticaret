@@ -1,10 +1,13 @@
-﻿namespace ETicaretAPI.API.Controllers
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class FilesController : ControllerBase
     {
-        private readonly IConfiguration _configuration;
+        readonly IConfiguration _configuration;
 
         public FilesController(IConfiguration configuration)
         {
@@ -19,5 +22,6 @@
                 Url = _configuration["BaseStorageUrl"]
             });
         }
+
     }
 }

@@ -1,11 +1,17 @@
 ﻿using ETicaretAPI.Application.Abstractions.Services;
 using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ETicaretAPI.Application.Features.Queries.Basket.GetBasketItems
 {
     public class GetBasketItemsQueryHandler : IRequestHandler<GetBasketItemsQueryRequest, List<GetBasketItemsQueryResponse>>
     {
-        private readonly IBasketService _basketService;
+
+        readonly IBasketService _basketService;
 
         public GetBasketItemsQueryHandler(IBasketService basketService)
         {

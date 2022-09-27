@@ -4,6 +4,8 @@ using ETicaretAPI.Application.Features.Commands.Basket.UpdateQuantity;
 using ETicaretAPI.Application.Features.Queries.Basket.GetBasketItems;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ETicaretAPI.API.Controllers
 {
@@ -12,7 +14,7 @@ namespace ETicaretAPI.API.Controllers
     [Authorize(AuthenticationSchemes = "Admin")]
     public class BasketsController : ControllerBase
     {
-        private readonly IMediator _mediator;
+        readonly IMediator _mediator;
 
         public BasketsController(IMediator mediator)
         {

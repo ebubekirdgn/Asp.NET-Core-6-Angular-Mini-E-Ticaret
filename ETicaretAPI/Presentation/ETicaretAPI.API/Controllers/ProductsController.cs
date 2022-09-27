@@ -9,6 +9,8 @@ using ETicaretAPI.Application.Features.Queries.Product.GetByIdProduct;
 using ETicaretAPI.Application.Features.Queries.ProductImageFile.GetProductImages;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace ETicaretAPI.API.Controllers
 {
@@ -16,8 +18,8 @@ namespace ETicaretAPI.API.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly IMediator _mediator;
-        private readonly ILogger<ProductsController> _logger;
+        readonly IMediator _mediator;
+        readonly ILogger<ProductsController> _logger;
 
         public ProductsController(IMediator mediator, ILogger<ProductsController> logger)
         {
@@ -99,5 +101,7 @@ namespace ETicaretAPI.API.Controllers
             ChangeShowcaseImageCommandResponse response = await _mediator.Send(changeShowcaseImageCommandRequest);
             return Ok(response);
         }
+
+
     }
 }

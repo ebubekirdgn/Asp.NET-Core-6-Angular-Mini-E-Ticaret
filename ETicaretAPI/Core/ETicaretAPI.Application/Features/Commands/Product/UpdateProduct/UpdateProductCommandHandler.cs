@@ -1,14 +1,19 @@
 ﻿using ETicaretAPI.Application.Repositories;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ETicaretAPI.Application.Features.Commands.Product.UpdateProduct
 {
     public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommandRequest, UpdateProductCommandResponse>
     {
-        private readonly IProductReadRepository _productReadRepository;
-        private readonly IProductWriteRepository _productWriteRepository;
-        private readonly ILogger<UpdateProductCommandHandler> _logger;
+        readonly IProductReadRepository _productReadRepository;
+        readonly IProductWriteRepository _productWriteRepository;
+        readonly ILogger<UpdateProductCommandHandler> _logger;
 
         public UpdateProductCommandHandler(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository, ILogger<UpdateProductCommandHandler> logger)
         {

@@ -1,4 +1,19 @@
-﻿namespace ETicaretAPI.Persistence
+﻿using Microsoft.EntityFrameworkCore;
+using ETicaretAPI.Persistence.Contexts;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Persistence.Repositories;
+using ETicaretAPI.Domain.Entities.Identity;
+using ETicaretAPI.Persistence.Services;
+using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Abstractions.Services.Authentications;
+
+namespace ETicaretAPI.Persistence
 {
     public static class ServiceRegistration
     {
@@ -31,11 +46,13 @@
             services.AddScoped<IBasketReadRepository, BasketReadRepository>();
             services.AddScoped<IBasketWriteRepository, BasketWriteRepository>();
 
+
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IExternalAuthentication, AuthService>();
             services.AddScoped<IInternalAuthentication, AuthService>();
             services.AddScoped<IBasketService, BasketService>();
+            services.AddScoped<IOrderService, OrderService>();
         }
     }
 }

@@ -5,7 +5,7 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin
 {
     public class GoogleLoginCommandHandler : IRequestHandler<GoogleLoginCommandRequest, GoogleLoginCommandResponse>
     {
-        private readonly IAuthService _authService;
+        readonly IAuthService _authService;
 
         public GoogleLoginCommandHandler(IAuthService authService)
         {

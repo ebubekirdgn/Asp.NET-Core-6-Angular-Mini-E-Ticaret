@@ -1,6 +1,12 @@
-﻿namespace ETicaretAPI.Infrastructure.Services
+﻿using ETicaretAPI.Infrastructure.Operations;
+
+namespace ETicaretAPI.Infrastructure.Services
 {
-    public class FileService
+    public class FileService 
     {
+   
+       
+
+        
     }
 }

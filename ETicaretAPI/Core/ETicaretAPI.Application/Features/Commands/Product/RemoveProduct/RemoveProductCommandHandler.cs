@@ -1,11 +1,16 @@
 ﻿using ETicaretAPI.Application.Repositories;
 using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ETicaretAPI.Application.Features.Commands.Product.RemoveProduct
 {
     public class RemoveProductCommandHandler : IRequestHandler<RemoveProductCommandRequest, RemoveProductCommandResponse>
     {
-        private readonly IProductWriteRepository _productWriteRepository;
+        readonly IProductWriteRepository _productWriteRepository;
 
         public RemoveProductCommandHandler(IProductWriteRepository productWriteRepository)
         {

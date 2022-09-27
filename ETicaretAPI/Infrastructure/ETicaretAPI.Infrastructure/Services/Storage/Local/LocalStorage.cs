@@ -7,12 +7,10 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Local
     public class LocalStorage : Storage, ILocalStorage
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
-
         public LocalStorage(IWebHostEnvironment webHostEnvironment)
         {
             _webHostEnvironment = webHostEnvironment;
         }
-
         public async Task DeleteAsync(string path, string fileName)
             => File.Delete($"{path}\\{fileName}");
 
@@ -24,8 +22,7 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Local
 
         public bool HasFile(string path, string fileName)
             => File.Exists($"{path}\\{fileName}");
-
-        private async Task<bool> CopyFileAsync(string path, IFormFile file)
+        async Task<bool> CopyFileAsync(string path, IFormFile file)
         {
             try
             {
@@ -41,7 +38,6 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Local
                 throw ex;
             }
         }
-
         public async Task<List<(string fileName, string pathOrContainerName)>> UploadAsync(string path, IFormFileCollection files)
         {
             string uploadPath = Path.Combine(_webHostEnvironment.WebRootPath, path);
